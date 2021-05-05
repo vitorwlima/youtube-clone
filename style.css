@@ -10,7 +10,6 @@
 body {
   background-color: #181818;
   color: white;
-  letter-spacing: 0.3px;
 }
 
 .video-block {
@@ -45,4 +44,12 @@ body {
   font-size: 1.1rem;
   color: white;
   margin-bottom: 0.5rem;
+  letter-spacing: 0.3px;
+  max-width: 280px;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, 360px));
+  gap: 1.2rem;
 }
