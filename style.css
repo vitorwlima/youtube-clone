@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  background-color: #181818;
+  color: white;
+  letter-spacing: 0.3px;
+}
+
+.video-block {
+  max-width: 360px;
+  font-size: 0.9rem;
+  color: #aaa7a1;
+}
+
+.descricao-geral {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.descricao-texto {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.canal-icone {
+  border-radius: 50%;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.thumbnail-imagem {
+  max-width: 360px;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
