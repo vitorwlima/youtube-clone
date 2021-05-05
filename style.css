@@ -91,6 +91,11 @@ ul {
   border-radius: 10000px;
 }
 
+.video-recom:first-child {
+  background-color: white;
+  color: black;
+}
+
 .navigation-section img {
   max-height: 30px;
 }
